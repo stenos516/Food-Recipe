@@ -1,12 +1,10 @@
-# Getting Started with Create React App
+# Food Recipe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## react app where you can search for your favorite recipes thanks to the API https://www.themealdb.com/
 
 ### `npm start`
+![Screenshot 2024-10-21 at 10-47-18 React App](https://github.com/user-attachments/assets/87067d47-6dc5-4a48-97c5-9e9102c47145)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

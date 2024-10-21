@@ -3,6 +3,10 @@
 
 ## react app where you can search for your favorite recipes thanks to the API https://www.themealdb.com/
 
+### visit the project at https://food-recipe516.netlify.app/
+
+
+
 ### `npm start`
 ![Screenshot 2024-10-21 at 10-47-18 React App](https://github.com/user-attachments/assets/87067d47-6dc5-4a48-97c5-9e9102c47145)
 

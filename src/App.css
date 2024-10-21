@@ -1,0 +1,259 @@
+*{
+
+  
+}
+
+body {
+  height: 100vh;
+ 
+  color: black;
+  font-family: 'outfit';
+}
+
+form {
+  display: flex;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #06ced5;
+}
+.header-links ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: 20px;
+ }
+
+ .header-links{
+  margin: 30px, 10px;
+  background-image: url('./assets/image.jpg');
+  background-size: cover; 
+  background-position: center; 
+  padding: 100px; 
+  color: white;
+ }
+.header-links a{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 25px;
+  }
+  .header-links a:hover{
+    color: cadetblue;
+  }
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+ margin:  100px;
+}
+
+.recipe-card {
+  background-color: #e7e7e7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ text-decoration: none;
+}
+
+
+.recipe-card img {
+  margin-top: 10px;
+  width: 90%;
+  height: auto;
+  border-left: solid 2px cadetblue;
+  border-radius: 5px;
+ 
+}
+
+.recipe-card h3 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.recipe-card button {
+  margin: 10px;
+  padding: 8px 12px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.recipe-card button:hover {
+  background-color: #06ced5;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+.view-details{
+  text-decoration: none;
+  color: brown;
+  font-size: 22px;
+}
+.logo{
+  width: 100px;
+  width: 100px;
+}
+
+.recipe-details{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin: 50px;
+ font-size: 25px; 
+ line-height: 1.6;
+ background-color: #ffffff;
+ border-radius: 5px;
+ font-family:'Montserrat, Thin 100';
+ color: #4b4b4b;
+}
+.recipe-details img{
+  max-width: 900px;
+  max-width: 600px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.recipe-details p{
+  background-color: #efefef;
+  border-left: 4px solid cadetblue;
+}
+
+.Ingredients ul{
+ 
+  
+}
+.Ingredients li{
+  margin: 10px;
+  background-color: cadetblue;
+  list-style: none;
+  width: 400px;
+  color: white;
+}
+.Title{
+text-align: center;
+margin: 50px 400px;
+background-color: cadetblue;
+color: aliceblue;
+border-radius: 5px;
+padding: 10px;
+font-size: 20px;
+  
+}
+.title-recipe{
+  background-color: cadetblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: cadetblue;
+  margin: 0px;
+  padding: 30px;
+ text-align: center;
+ margin-bottom: 0;
+}
+.love {
+  
+  height: 50px;
+}
+.title-favorite-recipes{
+  text-align: center;
+  margin: 50px 400px;
+  background-color: cadetblue;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  body, html{
+    overflow-x: hidden;
+    margin: 0px;
+   
+  }
+  .recipe-list {
+    margin: 20px;
+  }
+
+  .recipe-card {
+    width: 100%;
+  }
+
+  .recipe-details {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .header-links {
+    padding: 50px 20px;
+  }
+
+  .Ingredients li {
+    width: 100%;
+  }
+  .Title{
+ margin: 50px 20px;
+  }
+  .title-favorite-recipes{
+    margin: 50px 20px;
+}
+.recipe-details img{
+  max-width: 300px;
+  max-width: 300px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.recipe-details p{
+  background-color: #efefef;
+  border-left: 4px solid cadetblue;
+}
+
+.recipe-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+   font-size: 18px; 
+   line-height: 1.6;
+   background-color: #ffffff;
+   border-radius: 5px;
+   font-family:'Montserrat, Thin 100';
+   color: #4b4b4b;
+  }
+  .Ingredients li{
+   margin-right: 40px;
+    margin: 10px, 30px;
+    background-color: cadetblue;
+    list-style: none;
+    width: 200px;
+    color: white;
+  }
+}
+
